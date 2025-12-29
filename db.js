@@ -74,6 +74,5 @@ const db = mysql.createConnection({
   //   console.log(result.affectedRows + " record(s) updated");
   // });
 
-
-});
+// });
 module.exports = db;
