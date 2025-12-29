@@ -8,12 +8,12 @@ const db = mysql.createConnection({
   database: process.env.DB1_NAME
 });
 
-db.connect(err => {
-  if (err) {
-    console.error('DB connection failed:', err);
-    return;
-  }
-  console.log('MySQL connected');
+// db.connect(err => {
+//   if (err) {
+//     console.error('DB connection failed:', err);
+//     return;
+//   }
+//   console.log('MySQL connected');
 
   // db.query("CREATE DATABASE mydb", function (err, result) {
   //   if (err) throw err;
